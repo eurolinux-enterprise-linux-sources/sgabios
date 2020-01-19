@@ -3,7 +3,7 @@
 Name:           sgabios
 Epoch:          1
 Version:        0.20110622svn
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Open-source serial graphics BIOS option rom
 
 Group:          Applications/Emulators
@@ -69,6 +69,9 @@ install -m 0644 sgabios.bin $RPM_BUILD_ROOT%{_datadir}/sgabios
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.20110622svn-4
+- Mass rebuild 2013-12-27
+
 * Wed Oct 17 2012 Cole Robinson <crobinso@redhat.com> - 1:0.20110622svn-2
 - Fix deps with epoch bump
 
